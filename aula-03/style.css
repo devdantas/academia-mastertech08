@@ -1,0 +1,16 @@
+.odin {
+    padding: 10%;
+    background-color: maroon;
+}
+.div-1 {
+    background-color: red;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+}
+.div-2 {
+    background-color: lime;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+}

@@ -7,7 +7,7 @@ let password = "admin"
 let trys = 3
 let ver = false
 
-while (trys>=0) {
+while (trys!=0) {
     let userVal = prompt('Insira o usuario')
     let passVal = prompt('Insira a senha')
 
@@ -19,7 +19,7 @@ while (trys>=0) {
     }
 }
 console.log(trys)
-if(trys === -1) {
+if(trys === 0) {
     alert('Suas tentativas acabaram')
 }
 
